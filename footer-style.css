@@ -5,8 +5,8 @@ body {
 
 /*----- hk section3 -----*/
 .footer-wrapper {
-  width: 100%;
-  height: 3070px;
+  width: 100vw;
+  height: 159.90vw;
   background: url(./images/s3-bg-01.png) no-repeat 50% 50% /cover;
   display: flex;
   flex-direction: column;
@@ -14,9 +14,9 @@ body {
   overflow: hidden;
 }
 .footer-wrapper .section3 .s3-title {
-  width: 980px;
+  width: 51.04vw;
   transform: translateX(57%);
-  margin-bottom: 60px;
+  margin-bottom: 3.13vw;
   position: relative;
 }
 .footer-wrapper .section3 .date1 {
@@ -26,10 +26,10 @@ body {
   position: relative;
 }
 .footer-wrapper .section3 .date-wrap {
-  width: 1100px;
+  width: 57.29vw;
   display: flex;
   justify-content: space-between;
-  margin: 50px 0 50px 380px;
+  margin: 7vw 0 2.60vw 19.79vw;
   transform: translateX(5%);
 
 }
@@ -41,7 +41,7 @@ body {
   font-style: italic;
   color: #fff;
   text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000, 5px 5px 0 #000, 4px 4px 0 #000,  2px 2px 0 #000, 1px 1px 0 #000;
-  margin-bottom: 20px;
+  margin-bottom: 0.05vw;
 }
 .footer-wrapper .section3 .date-wrap p {
   font-family: var(--font-family-en);
@@ -51,22 +51,22 @@ body {
   text-align: center;
   line-height: 38px;
   color: var(--point-color-o);
-  margin-bottom: 20px;
+  margin-bottom: 1.04vw;
 }
 .footer-wrapper .section3 .date-wrap p span {
   display: block;
 }
 .footer-wrapper .section3 .timetable {
-  width: 1800px;
-  margin-left: 200px;
-  margin-bottom: 220px;
+  width: 93.75vw;
+  margin-left: 10.42vw;
+  margin-bottom: 11.46vw;
 }
 /*----- //section3 -----*/
 
 /*----- hk footer -----*/
 footer {
-  width: 1790px;
-  height: 585px;
+  width: 93.23vw;
+  height: 30.47vw;
   color: #fff;
   margin: 0 auto;
   border-radius: 40px 40px 0 0;
@@ -83,20 +83,20 @@ footer {
 }
 
 footer .box-left {
-  margin: 295px 0 0 140px;
+  margin: 15.36vw 0 0 7.29vw;
 }
 footer .box-left img {
-  width: 300px;
+  width: 15.63vw;
 }
 footer .box-left ul {
   display: flex;
-  margin-top: 20px;
+  margin-top: 1.04vw;
   font-family: var(--font-family-en);
   font-weight: 600;
   padding: 0;
 }
 footer .box-left ul li {
-  margin-right: 30px;
+  margin-right: 1.56vw;
 }
 footer .box-left ul li a {
   position: relative;
