@@ -195,3 +195,10 @@
 .section02 .swiper-button-prev:after {
   font-size: 0;
 }
+
+/***** hk : box3 노란박스 숨김 *****/
+
+.section02 .box3 {
+  display: none;
+}
+/***** hk : box3 노란박스 숨김 *****/

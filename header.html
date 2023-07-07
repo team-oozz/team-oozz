@@ -38,14 +38,22 @@
     <link rel="stylesheet" href="./section01-style.css">
     <!-- section02 bm -->
     <link rel="stylesheet" href="./section02-style.css">
+    <!-- hk footer-style 풋터영역스타일 링크 -->
+    <link rel="stylesheet" href="./footer-style.css">
 
     <!-- jQuery 문서연결 -->
     <script src="./common/jquery-3.7.0.min.js"></script>
     <!-- swiper js -->
     <script src="./common/swiper-bundle.min.js"></script>
+    <!-- hk 풋터 스크립트 플러그인 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script src="./common/ScrollTrigger.min.js"></script>
+
     <!-- 개별 -->
     <script defer src="./section01.js"></script>
     <script defer src="./section02.js"></script>
+    <!-- hk 풋터 개별 -->
+  <script defer src="./footer-script.js"></script>
 </head>
 
 <body>
@@ -431,6 +439,51 @@
             </div>
         </div>
     </section>
+
+    <!---------- hk section3 ---------->
+  <div class="footer-wrapper">
+    <section class="section3">
+      <img class="s3-title" src="./images/s3_title_01.svg" alt="section3title">
+      <div class="date-wrap">
+      <div class="date1">
+      <h2>07.15 SAT</h2>
+      <p><span>TICKET BOOTH OPEN 11:30</span>
+        GATE OPEN 12:30</p>
+      </div>
+      <div class="date2">
+        <h2>07.16 SUN</h2>
+        <p><span>TICKET BOOTH OPEN 11:30</span>
+          GATE OPEN 12:30</p>
+        </div>
+      </div>
+      <img class="timetable" src="./images/s3-timetable-01.png" alt="timetable">
+    </section>
+    <!---------- //section3 ---------->
+  
+    <!---------- hk footer ---------->
+    <div class="footer-moving">
+    <footer>
+      <div class="box-left">
+      <img src="./images/f_logo_01.svg" alt="mintpaper_logo">
+      <ul>
+        <li><a href="#">ABOUT Mint Paper</a></li>
+        <li><a href="#">CONTACT US</a></li>
+        <li><a href="#">FAMILY SITES</a></li>
+      </ul>
+      <p>ⓒ 2021 MINT PAPER ALL Rights Reserved ｜ 이용약관 ｜ 개인정보 취급방침</p>
+    </div>
+      <img src="./images/f_icon_git.svg" alt="icon_git" class="icon-git">
+      <ul class="team">
+        <li><span>팀‘OOZZ’ </span><a href="https://github.com/team-oozz" target="_blank">https://github.com/team-oozz</a></li>
+        <li><span>정보미 </span><a href="https://github.com/Jbomip" target="_blank">https://github.com/Jbomip</a></li>
+        <li><span>안소영 </span><a href="https://github.com/youngsoAN" target="_blank">https://github.com/youngsoAN</a></li>
+        <li><span>이지희 </span><a href="https://github.com/Leejihi" target="_blank">https://github.com/Leejihi</a></li>
+        <li><span>정희경 </span><a href="https://github.com/JungHeekyung" target="_blank">https://github.com/JungHeekyung</a></li>
+      </ul>
+    </footer>
+  </div>
+  </div>
+  <!---------- //footer ---------->
 </body>
 
 </html>

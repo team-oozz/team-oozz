@@ -1,0 +1,153 @@
+@charset "utf-8";
+body {
+  margin: 0;
+}
+
+/*----- hk section3 -----*/
+.footer-wrapper {
+  width: 100%;
+  height: 3070px;
+  background: url(./images/s3-bg-01.png) no-repeat 50% 50% /cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+.footer-wrapper .section3 .s3-title {
+  width: 980px;
+  transform: translateX(57%);
+  margin-bottom: 60px;
+  position: relative;
+}
+.footer-wrapper .section3 .date1 {
+  position: relative;
+}
+.footer-wrapper .section3 .date2 {
+  position: relative;
+}
+.footer-wrapper .section3 .date-wrap {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 50px 380px;
+  transform: translateX(5%);
+
+}
+.footer-wrapper .section3 .date-wrap h2 {
+  font-family: var(--font-family-en);
+  font-size: var(--font-size-50);
+  font-weight: 900;
+  text-align: center;
+  font-style: italic;
+  color: #fff;
+  text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000, 5px 5px 0 #000, 4px 4px 0 #000,  2px 2px 0 #000, 1px 1px 0 #000;
+  margin-bottom: 20px;
+}
+.footer-wrapper .section3 .date-wrap p {
+  font-family: var(--font-family-en);
+  font-size: var(--font-size-32);
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-align: center;
+  line-height: 38px;
+  color: var(--point-color-o);
+  margin-bottom: 20px;
+}
+.footer-wrapper .section3 .date-wrap p span {
+  display: block;
+}
+.footer-wrapper .section3 .timetable {
+  width: 1800px;
+  margin-left: 200px;
+  margin-bottom: 220px;
+}
+/*----- //section3 -----*/
+
+/*----- hk footer -----*/
+footer {
+  width: 1790px;
+  height: 585px;
+  color: #fff;
+  margin: 0 auto;
+  border-radius: 40px 40px 0 0;
+  background:  #ED5029 url(./images/f_title_01.svg) no-repeat 50% 10% /90%;
+  font-family: var(--font-family-ko);
+  font-size: 1rem;
+  font-weight: 400;
+
+  display: flex;
+  justify-content: space-between;
+
+  position: relative;
+  z-index: 999;
+}
+
+footer .box-left {
+  margin: 295px 0 0 140px;
+}
+footer .box-left img {
+  width: 300px;
+}
+footer .box-left ul {
+  display: flex;
+  margin-top: 20px;
+  font-family: var(--font-family-en);
+  font-weight: 600;
+  padding: 0;
+}
+footer .box-left ul li {
+  margin-right: 30px;
+}
+footer .box-left ul li a {
+  position: relative;
+}
+footer .box-left ul li:nth-child(1) a::after, 
+footer .box-left ul li:nth-child(2) a::after {
+  content: "";
+  width: 1px;
+  height: 12px;
+  background-color: #fff;
+  position: absolute;
+  top: 5px;
+  right: -15px;
+}
+footer .box-left p {
+  margin-top: 40px;
+  font-size: 13px;
+  opacity: 0.5;
+  font-weight: 100;
+}
+
+footer .icon-git {
+  width: 47.5px;
+  height: 303px;
+  position: absolute;
+  right: 470px;
+  bottom: 0;
+}
+footer .team {
+  margin-top: 295px;
+  font-size: 14px;
+  line-height: 35px;
+  position: absolute;
+  right: 140px;
+  bottom: 105px;
+  word-spacing: 10px;
+}
+footer .team li:nth-child(1) {
+  line-height: 60px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+footer .team li:nth-child(2),
+footer .team li:nth-child(3),
+footer .team li:nth-child(4),
+footer .team li:nth-child(5) {
+  text-indent: 20px;
+}
+footer .team li span {
+  font-weight: 600;
+}
+footer .team li a:hover {
+  text-decoration: underline;
+}
