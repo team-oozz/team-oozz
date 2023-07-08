@@ -198,3 +198,59 @@
 .section02 .swiper-button-prev:after {
   font-size: 0;
 }
+
+
+
+
+/*************** hk: box 구성 수정 덧붙임 **************/
+
+.movingbox {
+  position: relative;
+  width: 100%;
+  height: 1757px;
+}
+
+.movingbox .box1 {
+  background-color: var(--point-color-m);
+  width: 100%;
+  height: 1000px;
+  border-radius: 40px 40px 0 0;
+  transform: translateY(-10%);
+  overflow: hidden;
+
+}
+.movingbox .box1 p {
+  font-family: var(--font-family-en);
+  font-size: 3.85vw;
+  font-weight: 900;
+  font-style: italic;
+  color: #565656;
+  transform: translate(3%, 10%);
+}
+.section02 {
+  position: absolute;
+  top: 0;
+  z-index: 111;
+}
+.section02 p {
+  color: #fff;
+}
+.movingbox .box3 {
+  background-color: var(--point-color-y);
+  width: 100%;
+  height: 800px;
+  border-radius: 50px 50px 0 0;
+  position: absolute;
+  top: 250px;
+  z-index: 1111;
+  overflow: hidden;
+
+  display: none;
+}
+.movingbox .box3 p {
+  font-family: var(--font-family-en);
+  font-size: 8.13vw;
+  font-weight: 900;
+  font-style: italic;
+  color: var(--point-color-o);
+}
