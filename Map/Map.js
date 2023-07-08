@@ -4,7 +4,7 @@ $(".upto").click(function () {
   return false;
 });
 
-$("section img").each(function () {
+$(".section1 img").each(function () {
   $(this).on("wheel", function (evt) {
     evt.preventDefault(); // 휠 기본속성 제거
 
