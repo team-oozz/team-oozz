@@ -8,13 +8,6 @@
 /* 변수선언 */
 @import url(./common/variable.css);
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-}
-
 /*********** header  **********/
 
 header {
@@ -40,14 +33,7 @@ header .header-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* mix-blend-mode: difference; */
 }
-
-/* header .header-wrapper.difference {
-  background-repeat: no-repeat;
-  background-size: contain;
-  mix-blend-mode: difference;
-} */
 
 header .header-wrapper h1 {
   width: 20%;
