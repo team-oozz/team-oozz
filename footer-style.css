@@ -5,7 +5,7 @@ body {
 
 /*----- hk section3 -----*/
 .footer-wrapper {
-  width: 100vw;
+  width: 100%;
   height: 159.90vw;
   background: url(./images/s3-bg-01.png) no-repeat 50% 50% /cover;
   display: flex;
