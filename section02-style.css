@@ -36,7 +36,8 @@
 }
 
 /* profile */
-.section02 .profile {
+
+.profilejs {
   border-top: 1px solid #565656;
   border-bottom: 1px solid #565656;
   height: 692px;
@@ -44,6 +45,7 @@
   justify-content: space-evenly;
   align-items: center;
 }
+
 .section02 .profile .img-wrapper {
   width: 654px;
   height: 496px;
@@ -79,6 +81,7 @@
   height: 250px;
   text-align: center;
   padding-top: 122px;
+  /* display: flex; */
   /* display: flex;
   flex-direction: column;
   justify-content: center;
@@ -195,10 +198,3 @@
 .section02 .swiper-button-prev:after {
   font-size: 0;
 }
-
-/***** hk : box3 노란박스 숨김 *****/
-
-.section02 .box3 {
-  display: none;
-}
-/***** hk : box3 노란박스 숨김 *****/
