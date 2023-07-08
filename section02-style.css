@@ -20,16 +20,20 @@
 .section02 .index p {
   height: 265px;
   border-radius: 40px 40px 0 0;
-  text-indent: -9999px;
 }
 
 .section02 .index .idx-color1 {
   background-color: var(--point-color-m);
   height: 800px;
 }
+
+/*****/
 .section02 .index .idx-color2 {
   background-color: #232323;
 }
+
+/*****/
+
 .section02 .index .idx-color3 {
   background-color: var(--point-color-y);
   height: 800px;
@@ -246,6 +250,7 @@
   overflow: hidden;
 
   display: none;
+  
 }
 .movingbox .box3 p {
   font-family: var(--font-family-en);
@@ -253,4 +258,15 @@
   font-weight: 900;
   font-style: italic;
   color: var(--point-color-o);
+}
+
+/* 추가 */
+.section02 .index .idx-color2 {
+  font-family: var(--font-family-en);
+  color: #232323;
+  font-size: 8.13vw;
+  font-weight: 900;
+  font-style: italic;
+  transform: translateY(13%);
+  text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff, 1px 1px 0 #fff;
 }
