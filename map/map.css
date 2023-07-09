@@ -107,7 +107,7 @@ main .Map_logo {
 .section3 ul li {
   display: flex;
   align-items: center;
-  line-height: 20px;
+  line-height: 1.5;
   margin: 30px 0;
 }
 
