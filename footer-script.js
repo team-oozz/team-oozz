@@ -1,4 +1,5 @@
 
+// 타이틀 움직임
 
 const footerMovingImg = (evt) => {
   let x = evt.clientX;
@@ -13,8 +14,7 @@ const footerMovingImg = (evt) => {
 $('.footer-wrapper').on('mousemove', footerMovingImg);
 
 
-
-
+// footer 스크롤이벤트
 
 gsap.set('.footer-moving',{scale: 2, y: 100});
 gsap.registerPlugin(ScrollTrigger);
@@ -22,7 +22,11 @@ gsap.to(".footer-moving", {
   scrollTrigger: {
     trigger:".footer-moving", 
     toggleActions: "restart none reverse none",
-    scrub: 1
+    scrub: 0.5
 
 },
 scale: 0.2, y: 0, duration: 3  })
+
+
+
+

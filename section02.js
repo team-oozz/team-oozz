@@ -177,16 +177,17 @@ $('.slide-img11').on('click', () => {
 
 //  hk : 스크롤 이벤트 -----------
 
-gsap.set('.box1',{scale: 1});
+gsap.set('.box1',{scale: 1, y: -100});
 gsap.registerPlugin(ScrollTrigger);
 gsap.to(".box1", {
   scrollTrigger: {
     trigger:".box1", 
+    start: "top center",
     // toggleActions: "restart none reverse none",
     scrub: 0.5,
     ease:'bounce'
 },
-scale: 0.8, y: -10, duration: 50, backgroundColor: "#333333"  })
+scale: 0.8, y: -70, duration: 50, backgroundColor: "#555555"  })
 
 
 
@@ -207,33 +208,11 @@ gsap.to(".box3", {
   immediateRender: false,
   scrollTrigger: {
     trigger:".box3", 
-    start: "top - 100",
+    start: "top - 200",
     scrub: 1,
     ease:'bounce'
 },
-opacity:0, duration: 3 })
+opacity:0})
 
 
 
- /* tl.to(".box3", {
-  strat: "top",
-  opacity: 0,
-  toggleActions: "restart none reverse none"}) */
-
-
-/* const tl = gsap.timeline();
-tl.to(".box3", {
-  scrollTrigger: {
-    trigger:".box1", 
-    start: "top",
-    scrub: 1,
-    ease:'bounce'
-},
- y: 2000, duration: 2 })
-
- tl.to (".box3", {
-  scrollTrigger: {
-  start: "top - 200",
-  scrub: 1,
-},
-  x: 500, duration: 3}) */
