@@ -245,11 +245,11 @@
   height: 800px;
   border-radius: 50px 50px 0 0;
   position: absolute;
-  top: 250px;
+  top: 15.63vw;
   z-index: 1111;
   overflow: hidden;
 
-  display: none;
+  /* display: none; */
   
 }
 .movingbox .box3 p {
