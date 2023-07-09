@@ -19,6 +19,10 @@ body {
 
 header {
   margin-bottom: 100px;
+  transition: 1s;
+}
+header.scrollDown {
+  transform: translate(0, -160px);
 }
 /* upto버튼 이미지 수정함 */
 /* upto 버튼 */
