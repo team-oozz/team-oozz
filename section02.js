@@ -213,6 +213,22 @@ gsap.to(".box3", {
     ease:'bounce'
 },
 opacity:0})
+ 
+ 
+
+$('.slide-img-box').on('click', evt => {
+  evt.preventDefault();
+
+  // js: .offsetTop;
+  const box1 = $('.bg-color').offset().top;
+
+  scrollTo({
+    top: box1,
+    behavior: 'smooth'
+  });
+});
+
+
 
 
 
