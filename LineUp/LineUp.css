@@ -21,6 +21,10 @@ body {
 header {
   width: 100%;
   margin-bottom: 100px;
+  transition: 1s;
+}
+header.scrollDown {
+  transform: translate(0, -160px);
 }
 
 .LineUp_logo {
@@ -30,7 +34,7 @@ header {
   margin-bottom: 120px;
 }
 
-header .upto {
+main .upto {
   width: 100px;
   height: 100px;
   position: fixed;
@@ -39,7 +43,7 @@ header .upto {
   z-index: 9999;
 }
 
-header .upto img {
+main .upto img {
   width: 100%;
   height: 100%;
   background: #000;
@@ -47,7 +51,7 @@ header .upto img {
   transition: 0.3s;
 }
 
-header .upto img:hover {
+main .upto img:hover {
   transform: scale(1.2) rotate(5deg);
 }
 
