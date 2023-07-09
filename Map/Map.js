@@ -17,7 +17,7 @@ $(".section1 img").each(function () {
     if (delta > 0) {
       if (nextBox) {
         currentTop = nextBox.offsetTop;
-        console.log("down", currentTop);
+        // console.log("down", currentTop);
       } else {
         // return;
         currentTop = this.offsetTop;
