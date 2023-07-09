@@ -1,7 +1,6 @@
 # team-oozz
 
 ![team-oozz](./images/team_oozz.png)
--
 
 ## Web Project "Have a nice trip 2023"
 
