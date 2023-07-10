@@ -20,14 +20,12 @@
 }
 .section02 .index p {
   height: 265px;
-
 }
 
 .section02 .index .idx-color1 {
   background-color: var(--point-color-m);
   height: 800px;
 }
-
 
 .section02 .index .idx-color3 {
   background-color: var(--point-color-y);
@@ -198,9 +196,6 @@
   font-size: 0;
 }
 
-
-
-
 /*************** hk: box 구성 수정 덧붙임 **************/
 
 .movingbox {
@@ -216,7 +211,6 @@
   border-radius: 40px 40px 0 0;
   transform: translateY(-10%);
   overflow: hidden;
-
 }
 .movingbox .box1 p {
   font-family: var(--font-family-en);
@@ -258,7 +252,6 @@
   overflow: hidden;
 
   /* display: none; */
-  
 }
 .movingbox .box3 p {
   font-family: var(--font-family-en);
@@ -316,4 +309,17 @@
     -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
   }
+}
+/* 가수 이미지 hover */
+.slide-posi {
+  transition: 0.3s;
+  transform: scale(1, 1);
+}
+.slide-posi:hover {
+  transform: scale(0.9, 0.9);
+  color: var(--point-color-y);
+  /* color: rgb(243, 174, 0); */
+}
+.slide-posi img {
+  cursor: pointer;
 }
