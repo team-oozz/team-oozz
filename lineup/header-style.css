@@ -3,10 +3,10 @@
 /* font-family: 'Poppins', 's-core-dream', cursive, sans-serif; */
 
 /* 'Poppins', 's-core-dream' */
-@import url(/common/fonts/fonts.css);
+@import url(../common/fonts/fonts.css);
 
 /* 변수선언 */
-@import url(/common/variable.css);
+@import url(../common/variable.css);
 
 /*********** header  **********/
 
